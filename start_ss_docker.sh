@@ -8,6 +8,6 @@ docker stop shadowsocks
 docker rm shadowsocks
 
 echo run the image
-docker run --name $NAME --detach --publish $PORT:8338 --publish $PORT:8838/udp shadowsocks/shadowsocks-libev -k $PASSWORD --fast-open -v -m $METHOD
+docker run --name $NAME --detach --restart=always --publish $PORT:8338 --publish $PORT:8838/udp shadowsocks/shadowsocks-libev -k $PASSWORD --fast-open -v -m $METHOD
 docker ps -al
 
