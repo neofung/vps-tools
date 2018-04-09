@@ -1,6 +1,6 @@
 [submodule "docker-ngrok"]
 	path = docker-ngrok
 	url = https://github.com/neofung/docker-ngrok.git
-[submodule "shadowsocks_all"]
-	path = shadowsocks_all
-	url = https://github.com/hugoyuice/shadowsocks_all.git
+[submodule "shadowsocks_install"]
+	path = shadowsocks_install
+	url = https://github.com/teddysun/shadowsocks_install.git
